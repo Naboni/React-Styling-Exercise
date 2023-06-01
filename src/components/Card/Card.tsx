@@ -5,7 +5,7 @@ import './Card.css'
 import TimeLine from '../TimeLine/TimeLine';
 import { ICardProps } from '../../types/ICardProps';
 
-export default function Card(card: ICardProps) {
+const Card: React.FC<ICardProps> = (card) => {
   return (
     <div className='card'>
         <div className='title'>
@@ -36,3 +36,5 @@ export default function Card(card: ICardProps) {
     </div>
   )
 }
+
+export default Card;

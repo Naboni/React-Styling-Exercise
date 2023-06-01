@@ -2,11 +2,11 @@
   width: 500px;
   margin: 1rem;
   padding: 0.5rem 2.5rem;
-  border: 1px solid #ccc;
+  border: 1px solid var(--lighter-gray-color);
   border-radius: 5px;
-  box-shadow: 0 0 5px #ccc;
+  box-shadow: 0 0 5px var(--lighter-gray-color);
   overflow: hidden;
-  background-color: #fff;
+  background-color: var(--bg-color);
 }
 
 .title-top {
@@ -26,7 +26,7 @@
 }
 
 .vertical-divider {
-  border-left: 1.8px solid #d0d0d0;
+  border-left: 1.8px solid var(--light-gray-color);
   height: 18px;
 }
 
@@ -55,7 +55,7 @@
 .circle-dot {
     height: 7px;
     width: 7px;
-    background-color: #d0d0d0;
+    background-color: var(--light-gray-color);
     border-radius: 50%;
     display: inline-block;
     margin-right: 5px;
@@ -68,7 +68,7 @@
 }
 
 .horizontal-divider {
-    border-top: 1.8px solid #d0d0d0;
+    border-top: 1.8px solid var(--light-gray-color);
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;

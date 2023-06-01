@@ -23,7 +23,7 @@
 }
 
 .timeline p {
-  padding: 0px 10px 5px 0;
+  padding: 0px 10px 8px 0;
   margin: 0;
 }
 
@@ -38,14 +38,14 @@
 
 .timeline li:before {
   content: "";
-  width: 15px;
-  height: 15px;
+  width: 11px;
+  height: 11px;
   border-radius: 50%;
   position: absolute;
   top: 0;
   left: 0;
   background: #f8f8f8;
-  margin-left: -6px;
+  margin-left: -4px;
   z-index: 99;
   box-shadow: 2px 2px 5px #dee1e4, -2px -2px 5px #ffffff;
 }
