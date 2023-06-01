@@ -1,0 +1,89 @@
+.card {
+  width: 500px;
+  margin: 1rem;
+  padding: 0.5rem 2.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccc;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.title-top {
+    padding-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1rem;
+  height: 30px;
+}
+
+.title-top h3 {
+  font-style: italic;
+  font-size: 1.5rem;
+  padding-right: 1rem;
+  font-weight: 600;
+}
+
+.vertical-divider {
+  border-left: 1.8px solid #d0d0d0;
+  height: 18px;
+}
+
+.card-icon {
+    color: #757575;
+}
+
+.linkedin {
+    color: #2866b1;
+}
+
+.title-bottom {
+    padding-top: 5px;
+    height: 30px;
+    display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1rem;
+}
+
+.position {
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.circle-dot {
+    height: 7px;
+    width: 7px;
+    background-color: #d0d0d0;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.location {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #757575;
+}
+
+.horizontal-divider {
+    border-top: 1.8px solid #d0d0d0;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.timeline-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.timeline-container h3 {
+    width: 80px;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 600;
+}
