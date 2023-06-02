@@ -7,7 +7,7 @@ const TimeLine: React.FC<{ items: ITimeLineProps[] }> = ({ items }) => {
   useEffect(() => {
     if (items.length > 0) {
       items.sort((a: ITimeLineProps, b: ITimeLineProps) => {
-        return +new Date(b.date) - +new Date(a.date); // Unary plus (+) converts an operand ( new Date() ) into a number.
+        return +new Date(a.date) - +new Date(b.date); // Unary plus (+) converts an operand ( new Date() ) into a number.
       })
     }
   }, [items]);
