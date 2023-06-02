@@ -30,7 +30,7 @@ const Card: React.FC<ICardProps> = (card) => {
             </div>
             <div className='timeline-container'>
                 <h3>Education</h3>
-                <TimeLine items={card.education}/>
+                <TimeLine items = {card.education}/>
             </div>
         </div>
     </div>

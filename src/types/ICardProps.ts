@@ -1,3 +1,4 @@
+import { ITimeLineProps } from "./ITimeLineProps";
 
 export interface ICardProps {
     name: string,
@@ -8,6 +9,6 @@ export interface ICardProps {
     phone_number?: string,
     personal_email?: string,
     linkedIn?: string,
-    experience: string[],
-    education: string[]
+    experience: ITimeLineProps[],
+    education: ITimeLineProps[]
 }

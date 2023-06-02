@@ -1,3 +1,4 @@
 export interface ITimeLineProps {
-  items: string[];
+  title: string;
+  img: string;
 }
