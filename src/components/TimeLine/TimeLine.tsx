@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import "./TimeLine.css";
 import { ITimeLineProps } from "../../types/ITimeLineProps";
 
-const TimeLine: React.FC<{items: ITimeLineProps[]}> = ({items}) => {
+const TimeLine: React.FC<{ items: ITimeLineProps[] }> = ({ items }) => {
+  useEffect(() => {
+    if (items.length > 0) {
+      items.sort((a: ITimeLineProps, b: ITimeLineProps) => {
+        return +new Date(b.date) - +new Date(a.date); // Unary plus (+) converts an operand ( new Date() ) into a number.
+      })
+    }
+  }, [items]);
   return (
     <div className="wrapper">
       <ul className="timeline">
